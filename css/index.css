@@ -152,6 +152,12 @@
 
 /*studio*/
 
+/*strength numberD*/
+.counter {
+  background-color: #fff !important;
+}
+/*strength numberD*/
+
 .studious .fa-graduation-cap {
   color: #0d369f;
   font-size: 30px;
@@ -227,12 +233,12 @@ h3.title-main:after {
 .item__service .icon {
   color: #0d369f;
   font-size: 28px;
-  background: rgb(13 54 159 / 9%);
-  width: 83px;
-  height: 66px;
-  line-height: 65px;
-  border-radius: 50%;
-  text-align: center;
+    background: rgb(13 54 159 / 9%);
+    width: 83px;
+    height: 66px;
+    line-height: 65px;
+    border-radius: 50%;
+    text-align: center;
 }
 /*service*/
 
@@ -326,8 +332,14 @@ p {
   padding: 0;
   font-size: 16px;
   line-height: 28px;
-  color: var(--font-color);
+
   letter-spacing: 0.4px;
+}
+
+.footer .sub-one-left p,.footer .sub-one-left li, .footer .sub-two-right li {
+  font-size: 14px;
+  line-height: 24px;
+  color: #cecece;
 }
 /*contact*/
 
@@ -388,7 +400,19 @@ p {
   background-color: #f5f5f5;
   padding: 20px 0;
   border-radius: 5px;
+  
 }
+
+.border-right-0 {
+  border-right: 0 !important;
+}
+
+@media screen and (min-width: 992px) {
+  .counter{
+    border-right: 1px solid #eee;
+  }
+}
+
 
 .count-title {
   font-size: 40px;
