@@ -230,11 +230,11 @@ h3.title-main:after {
   border-radius: 8px;
 }
 
-.item__service .icon {
-  color: #0d369f;
-  font-size: 28px;
+.item__service .icon i{
+    color: #0d369f;
+    font-size: 28px;
     background: rgb(13 54 159 / 9%);
-    width: 83px;
+    width: 66px;
     height: 66px;
     line-height: 65px;
     border-radius: 50%;
